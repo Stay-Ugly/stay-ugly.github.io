@@ -1,0 +1,61 @@
+@font-face {
+  font-family: linksFont;
+  src: url(_src/links.TTF);
+}
+
+a {
+    font-family: linksFont;
+    font-size:20px;
+    color: #424baa;
+    
+}
+
+a:hover {
+     color: #6e42aa;
+}
+
+.header {
+   text-align: center;
+}
+
+body {
+    background-color: #212121;
+    
+}
+
+p {
+
+}
+
+.forme p {
+  color: #dbdbdb;
+  font-family: verdana;
+  font-size: 15px;
+  text-align: center 
+    
+}
+
+.content h1 {
+  color: #dbdbdb;
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center 
+}
+
+.content p {
+    font-family: verdana;
+    font-size:18px;
+    color: white;
+    text-align:center
+    
+}
+
+.content a {
+    font-family: linksFont;
+    color: #fced49;
+
+}
+
+.content a:hover {
+    color: #fc9349;
+}
