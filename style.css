@@ -1,6 +1,6 @@
 @font-face {
   font-family: linksFont;
-  src: url(_src/links.TTF);
+  src: url(src/links.TTF);
 }
 
 a {
@@ -35,27 +35,55 @@ p {
     
 }
 
-.content h1 {
-  color: #dbdbdb;
+.content-index h1 {
+  color: #ffffff;
   font-family: verdana;
   font-size: 20px;
   text-align: center 
 }
 
-.content p {
+.content-index p {
     font-family: verdana;
     font-size:18px;
     color: white;
-    text-align:center
+    text-align:center;
     
 }
 
-.content a {
+.content-index a {
     font-family: linksFont;
     color: #fced49;
 
 }
 
-.content a:hover {
+.content-index a:hover {
     color: #fc9349;
+}
+
+.content-sites h1 {
+    color: #fced49;
+    font-family: verdana;
+    font-size: 25px;
+    text-align: center;
+}
+
+.content-sites h2 {
+    margin: 30px;
+    color: #ffffff;
+    font-family: verdana;
+    font-size: 18px;
+}
+
+.content-sites p {
+    margin: 50px;
+    color: #ffffff;
+    font-family: verdana;
+    font-size: 15px;
+}
+
+.link-title {
+    color: #fced49;
+    font-family: verdana;
+    font-size: 25px;
+    text-align: center;
 }
