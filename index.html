@@ -1,59 +1,30 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <title>Stay Ugly | A blog about privacy, technology and some other stuffs</title>
-    
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-    <link rel="shortcut icon" href="src/favicon.ico" />
-  </head>
-  <body>
-  
-    <div class="header">
-    
-    <img src="src/header.png" alt="site header"> </br>
-    
-    <a href="index.html"> Articles </a>&nbsp;
-    
-    <a href="sites.html"> Useful sites and alternatives </a>&nbsp;
-    
-    <a href="translate.html">Translate </a> &nbsp;
-    
-    <a href="about.html"> About me </a>&nbsp;
-    
-    <a href="https://stay-ugly.github.io" target="blank"> Mirror </a>
-    
-    
-    </div>
-    <main>
-    
-    <div class="forme">
-    </br>
-    <p><i>Stay Ugly for me. </i></p> </br></br>
-    </div>
-    
+<html>
 
-    
-    <div class="content-index">
-    
-    <h1><img src="articles.png" width="100" height="100"></br> Articles list </h1>
-    
-    <p><a href="articles/article-template.html"> The Problem with Signal </a><a href="articles/problem-signal_pt-br.html"><img src="src/br_flag.png" width="25"/></a></p>
-    </br></br></br>
-  
-    
-    <h1> <img src="fren.png" width="100" height="50"></br>Frens</h1>
-    
-    <p>-<a href="https://steemit.com/@lynnx" target="blanck"> Lynx Blog's </a> <img src="src/br_flag.png" width="25"/></p>
-    <p>-<a href=""> Some site here</a></p>
-    
-     </br></br></br>
-    
-    
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon - Stay Ugly</title>
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon" />
+    <link href="./css/main.css" rel="stylesheet" type="text/css" />
+    <script src="./js/polyfills.js"></script>
+    <script src="./js/main.js"></script> </head>
+
+<body>
+    <div id="sidenav">
+        <button id="sidenavBtn">&#9776;</button>
+        <img id="profilePic" alt="An avatar that aims to represent the website owner" src="./img/avatar.png">
     </div>
-    
-    
-    </main>
-    <footer></footer>
-  </body>
+    <div id="container">
+        <div id="output"></div>
+        <div id="input-line" class="input-line">
+            <div id="prompt" class="prompt-color"></div>&nbsp;
+            <div>
+                <input type="text" id="cmdline" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+                    autofocus/>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>

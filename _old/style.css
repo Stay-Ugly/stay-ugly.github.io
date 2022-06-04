@@ -1,0 +1,109 @@
+@font-face {
+  font-family: linksFont;
+  src: url(src/links.TTF);
+}
+
+a {
+    font-family: linksFont;
+    font-size:20px;
+    color: #424baa;
+    
+}
+
+a:hover {
+     color: #6e42aa;
+}
+
+.header {
+   text-align: center;
+}
+
+body {
+    background-color: #212121;
+    
+}
+
+
+
+.forme p {
+  color: #dbdbdb;
+  font-family: verdana;
+  font-size: 15px;
+  text-align: center 
+    
+}
+
+.content-index h1 {
+  color: #ffffff;
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center 
+}
+
+.content-index p {
+    font-family: verdana;
+    font-size:18px;
+    color: white;
+    text-align:center;
+    
+}
+
+.content-index a {
+    font-family: linksFont;
+    color: #fced49;
+
+}
+
+.content-index a:hover {
+    color: #fc9349;
+}
+
+.content-sites h1 {
+    color: #fced49;
+    font-family: verdana;
+    font-size: 25px;
+    text-align: center;
+}
+
+.content-sites h2 {
+    margin-left: 50px;
+    margin-top: 50px;
+    color: #fced49;
+    font-family: verdana;
+    font-size: 18px;
+}
+
+.content-sites p {
+    margin-left: 50px;
+    margin-right: 100px;
+    color: #ffffff;
+    font-family: verdana;
+    font-size: 15px;
+}
+
+.link-title {
+    color: #fced49;
+    font-family: verdana;
+    font-size: 25px;
+    text-align: center;
+}
+
+.content-sites img {
+    margin: 50px;
+    position: relative;
+}
+
+.back-home a {
+    font-family: linksFont;
+    font-size: 20px;
+    color: #fced49;
+
+}
+
+.back-home a:hover {
+    color: #fc9349;
+}
+
+.back-home a {
+    margin: 15px;
+}
